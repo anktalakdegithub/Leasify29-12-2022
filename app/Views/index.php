@@ -319,7 +319,7 @@
     transition: background 0.8s linear;
 }
 
-.card0 {
+/* .card0 {
     background: url('./assets/images/digi.jpg') center center no-repeat;
     background-size: 400px;
 }
@@ -337,7 +337,7 @@
 .card3 {
     background: url('./assets/images/digi3.jpg') center center no-repeat;
     background-size: 400px;
-}
+} */
 
 .cardhover:hover {
     background-size: 600px;
