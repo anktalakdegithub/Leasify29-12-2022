@@ -1,0 +1,104 @@
+CRITICAL - 2022-10-13 05:27:49 --> Undefined array key "firstname"
+in APPPATH\Views\home\myaccount.php on line 53.
+ 1 APPPATH\Views\home\myaccount.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstname"', 'APPPATH\\Views\\home\\myaccount.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:18:58 --> Undefined constant "profiledetails"
+in APPPATH\Views\home\myaccount.php on line 53.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 4 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:20:26 --> Undefined array key "user_id"
+in APPPATH\Views\home\myaccount.php on line 53.
+ 1 APPPATH\Views\home\myaccount.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\home\\myaccount.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:21:28 --> syntax error, unexpected token "=>"
+in APPPATH\Views\home\myaccount.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 3 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:21:48 --> syntax error, unexpected token "=>", expecting "," or ";"
+in APPPATH\Views\home\myaccount.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 3 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 06:23:12 --> Undefined array key "user_id"
+in APPPATH\Views\home\myaccount.php on line 53.
+ 1 APPPATH\Views\home\myaccount.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\home\\myaccount.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(198): view('home/myaccount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->myaccount()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 17:36:18 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1332 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(1332): App\Models\NbfcCreateProposalModels->updateproposal('petpooja', '12', '8', '1000', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-10-16', 'n m', '27')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 17:39:16 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1332 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(1332): App\Models\NbfcCreateProposalModels->updateproposal('demo', '13.77', '5', '10000', '/public/proposal/1665700756_c149a4f2f154219279b5.png', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-10-28', 'detail', '29')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 17:40:57 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1332 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 52.
+ 1 APPPATH\Controllers\Admin.php(1332): App\Models\NbfcCreateProposalModels->updateproposal('demo', '13.77', '5', '10000', '/public/proposal/1665700857_631976538eedec60d5c2.png', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '1', 'Subject 4', '2022-10-28', 'detail', '29')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 17:48:30 --> Undefined variable $rfqs
+in APPPATH\Views\admin\rfq.php on line 62.
+ 1 APPPATH\Views\admin\rfq.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rfqs', 'APPPATH\\Views\\admin\\rfq.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\rfq.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/rfq', [], true)
+ 5 APPPATH\Controllers\Admin.php(72): view('admin/rfq', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 18:02:43 --> Attempt to read property "rfqupload" on array
+in APPPATH\Views\admin\rfqdetails.php on line 21.
+ 1 APPPATH\Views\admin\rfqdetails.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rfqupload" on array', 'APPPATH\\Views\\admin\\rfqdetails.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\rfqdetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/rfqdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(109): view('admin/rfqdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

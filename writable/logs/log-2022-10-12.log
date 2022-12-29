@@ -1,0 +1,31 @@
+CRITICAL - 2022-10-12 06:47:55 --> Undefined variable $payment
+in APPPATH\Views\nbfc\order.php on line 102.
+ 1 APPPATH\Views\nbfc\order.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payment', 'APPPATH\\Views\\nbfc\\order.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\order.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/order', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(127): view('nbfc/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->order()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-12 23:23:20 --> syntax error, unexpected token ";"
+in APPPATH\Views\header.php on line 128.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\Welcome.php(42): view('login', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-12 23:23:27 --> syntax error, unexpected token ";"
+in APPPATH\Views\header.php on line 128.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Welcome.php(9): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

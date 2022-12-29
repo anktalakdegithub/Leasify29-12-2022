@@ -1,0 +1,413 @@
+CRITICAL - 2022-09-30 06:16:56 --> Class "App\Models\Deal_model" not found
+in APPPATH\Controllers\Addmoney.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Addmoney->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 07:39:48 --> Class "App\Controllers\NbfcCreateProposalModels" not found
+in APPPATH\Controllers\Login.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 18:19:48 --> Undefined variable $mobilenum
+in APPPATH\Models\LoginModles.php on line 18.
+ 1 APPPATH\Models\LoginModles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilenum', 'APPPATH\\Models\\LoginModles.php', 18)
+ 2 APPPATH\Controllers\Login.php(100): App\Models\LoginModles->savesignup('mimi', 'sarkhar', 'mimi@gmail.com', '7039403657', 'investor', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 18:21:29 --> Undefined variable $mobilenum
+in APPPATH\Models\LoginModles.php on line 18.
+ 1 APPPATH\Models\LoginModles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilenum', 'APPPATH\\Models\\LoginModles.php', 18)
+ 2 APPPATH\Controllers\Login.php(100): App\Models\LoginModles->savesignup('mimi', 'sarkhar', 'mimi@gmail.com', '7039403657', 'investor', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 18:21:55 --> Undefined variable $mobilenum
+in APPPATH\Models\LoginModles.php on line 18.
+ 1 APPPATH\Models\LoginModles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilenum', 'APPPATH\\Models\\LoginModles.php', 18)
+ 2 APPPATH\Controllers\Login.php(100): App\Models\LoginModles->savesignup('mimi', 'sarkhar', 'mimi@gmail.com', '7039403657', 'investor', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 18:22:11 --> Undefined variable $mobilenum
+in APPPATH\Models\LoginModles.php on line 18.
+ 1 APPPATH\Models\LoginModles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilenum', 'APPPATH\\Models\\LoginModles.php', 18)
+ 2 APPPATH\Controllers\Login.php(100): App\Models\LoginModles->savesignup('dmeo', 'karande', 'admin@gmail.com', '9029977770', 'investor', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 18:23:13 --> Undefined variable $mobilenum
+in APPPATH\Models\LoginModles.php on line 18.
+ 1 APPPATH\Models\LoginModles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilenum', 'APPPATH\\Models\\LoginModles.php', 18)
+ 2 APPPATH\Controllers\Login.php(100): App\Models\LoginModles->savesignup('dmeo', 'karande', 'admin@gmail.com', '9029977770', 'investor', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_signup()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:17:52 --> Undefined property: stdClass::$firstname
+in APPPATH\Views\admin\proposal_details.php on line 105.
+ 1 APPPATH\Views\admin\proposal_details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'APPPATH\\Views\\admin\\proposal_details.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proposal_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/proposal_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(394): view('admin/proposal_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:18:02 --> Undefined property: stdClass::$firstname
+in APPPATH\Views\admin\proposal_details.php on line 105.
+ 1 APPPATH\Views\admin\proposal_details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'APPPATH\\Views\\admin\\proposal_details.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proposal_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/proposal_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(394): view('admin/proposal_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:18:17 --> Undefined property: stdClass::$firstname
+in APPPATH\Views\admin\proposal_details.php on line 105.
+ 1 APPPATH\Views\admin\proposal_details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'APPPATH\\Views\\admin\\proposal_details.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proposal_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/proposal_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(394): view('admin/proposal_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:20:08 --> Undefined property: stdClass::$firstname
+in APPPATH\Views\admin\proposal_details.php on line 105.
+ 1 APPPATH\Views\admin\proposal_details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$firstname', 'APPPATH\\Views\\admin\\proposal_details.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proposal_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/proposal_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(394): view('admin/proposal_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:21:48 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:24:57 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:26:11 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:27:32 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:27:51 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:28:07 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:28:37 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:29:16 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:29:33 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:29:47 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:30:35 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:30:42 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:31:22 --> Undefined variable $output
+in APPPATH\Controllers\Admin.php on line 971.
+ 1 APPPATH\Controllers\Admin.php(971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $output', 'APPPATH\\Controllers\\Admin.php', 971)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchnbfc()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:35:29 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:35:30 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:35:30 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:35:31 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:36:03 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:36:11 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:42:41 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:42:59 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:44:58 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:45:08 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:45:28 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 08:46:23 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:10:25 --> Call to undefined method CodeIgniter\Email\Email::setForm()
+in APPPATH\Controllers\Home.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:10:46 --> Undefined variable $message
+in APPPATH\Controllers\Home.php on line 162.
+ 1 APPPATH\Controllers\Home.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'APPPATH\\Controllers\\Home.php', 162)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:11:32 --> Call to undefined method CodeIgniter\Email\Email::setForm()
+in APPPATH\Controllers\Home.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:11:45 --> Call to undefined method CodeIgniter\Email\Email::setForm()
+in APPPATH\Controllers\Home.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:11:48 --> Call to undefined method CodeIgniter\Email\Email::setForm()
+in APPPATH\Controllers\Home.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 09:11:59 --> Call to undefined method CodeIgniter\Email\Email::setForm()
+in APPPATH\Controllers\Home.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:09:42 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:09:46 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:09:59 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:05 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:09 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:10 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:11 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:11 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:22 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:24 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:28 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:10:45 --> Undefined variable $otp
+in APPPATH\Controllers\Login.php on line 51.
+ 1 APPPATH\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $otp', 'APPPATH\\Controllers\\Login.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:38:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:38:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 23:36:02 --> Undefined variable $search
+in APPPATH\Controllers\Admin.php on line 883.
+ 1 APPPATH\Controllers\Admin.php(883): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search', 'APPPATH\\Controllers\\Admin.php', 883)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->searchinvestor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,583 @@
+ERROR - 2022-09-20 08:30:48 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(334): App\Models\NbfcBidModels->savebis(NULL, '999999999999999...', '/public/nbfc/', '18')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:06:35 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(334): App\Models\NbfcBidModels->savebis(NULL, '2000000', '/public/nbfc/16...', '1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:38:38 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '5676', '/public/nbfc/', '1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:38:56 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '456547', '/public/nbfc/', '1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:43:27 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '456959657', '/public/nbfc/16...', '18')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:45:20 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '475', '/public/nbfc/16...', '2')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:48:24 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '899999', '/public/nbfc/16...', '2')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:51:07 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(338): App\Models\NbfcBidModels->savebis(NULL, '40684609', '/public/nbfc/16...', '1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-20 09:59:26 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\leasiffronts\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(312): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addmoney()
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#11 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-20 10:04:07 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\leasiffronts\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(312): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addmoney()
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#11 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-20 00:02:56 --> Undefined variable $data
+in APPPATH\Controllers\Nbfc.php on line 188.
+ 1 APPPATH\Controllers\Nbfc.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Nbfc.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqlist()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:33:46 --> Object of class App\Models\NbfcCreateProposalModels could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:34:33 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\Nbfc.php on line 209.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Nbfc.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Nbfc')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Nbfc')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Nbfc', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:35:41 --> Object of class App\Models\NbfcCreateProposalModels could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `investor_publish` = :investor_publish:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `investor_publish` = :investor_publish:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `investor_publish` = :investor_publish:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Nbfc.php(215): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:36:17 --> Object of class App\Models\NbfcCreateProposalModels could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `indicative_proposals`.`investor_publish` = :indicative_proposals.investor_publish:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Nbfc.php(215): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:38:31 --> Object of class App\Models\NbfcCreateProposalModels could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `NBFC_publish` = :NBFC_publish:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `NBFC_publish` = :NBFC_publish:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `indicative_proposals`
+JOIN `proposal_bid` ON `proposal_bid`.`proposal_id` = `indicative_proposals`.`proposal_id`
+WHERE `NBFC_publish` = :NBFC_publish:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Nbfc.php(211): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:45:46 --> Undefined variable $demo
+in APPPATH\Controllers\Nbfc.php on line 216.
+ 1 APPPATH\Controllers\Nbfc.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'APPPATH\\Controllers\\Nbfc.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:46:00 --> Undefined variable $demo
+in APPPATH\Controllers\Nbfc.php on line 218.
+ 1 APPPATH\Controllers\Nbfc.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'APPPATH\\Controllers\\Nbfc.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:46:21 --> Undefined variable $demo
+in APPPATH\Controllers\Nbfc.php on line 218.
+ 1 APPPATH\Controllers\Nbfc.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'APPPATH\\Controllers\\Nbfc.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:46:23 --> Undefined variable $demo
+in APPPATH\Controllers\Nbfc.php on line 218.
+ 1 APPPATH\Controllers\Nbfc.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'APPPATH\\Controllers\\Nbfc.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:48:36 --> Call to a member function join() on int
+in APPPATH\Controllers\Nbfc.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:50:13 --> Undefined variable $demo
+in APPPATH\Controllers\Nbfc.php on line 222.
+ 1 APPPATH\Controllers\Nbfc.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'APPPATH\\Controllers\\Nbfc.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 00:54:36 --> Call to a member function join() on int
+in APPPATH\Controllers\Nbfc.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 01:50:38 --> Call to undefined function sum()
+in APPPATH\Views\nbfc\my_vault.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 4 APPPATH\Controllers\Nbfc.php(60): view('nbfc/my_vault', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 02:10:36 --> Unclosed '{' on line 30
+in APPPATH\Views\nbfc\rfqs.php on line 162.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqs', [], true)
+ 3 APPPATH\Controllers\Nbfc.php(236): view('nbfc/rfqs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 02:43:22 --> Undefined variable $is_proposal
+in APPPATH\Controllers\Nbfc.php on line 104.
+ 1 APPPATH\Controllers\Nbfc.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_proposal', 'APPPATH\\Controllers\\Nbfc.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-20 02:49:02 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(142): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-20 02:49:02 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Nbfc.php(142): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-20 02:50:09 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(142): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-20 02:50:09 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Nbfc.php(142): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 03:59:22 --> Cannot access offset of type string on string
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 4 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 04:01:28 --> Undefined variable $sum
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 APPPATH\Views\nbfc\my_vault.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\nbfc\\my_vault.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 04:01:35 --> Undefined variable $sum
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 APPPATH\Views\nbfc\my_vault.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\nbfc\\my_vault.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 04:01:37 --> Undefined variable $sum
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 APPPATH\Views\nbfc\my_vault.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\nbfc\\my_vault.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 04:01:39 --> Undefined variable $sum
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 APPPATH\Views\nbfc\my_vault.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\nbfc\\my_vault.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 04:02:16 --> Undefined variable $sum
+in APPPATH\Views\nbfc\my_vault.php on line 93.
+ 1 APPPATH\Views\nbfc\my_vault.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\nbfc\\my_vault.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(66): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 07:34:31 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-20 07:34:36 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-20 07:36:57 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-20 07:40:00 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-20 07:40:12 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-20 07:40:23 --> Declaration of App\Models\NbfcBidModels::update($nbfc_id, $nbfcbid, $propid) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\NbfcBidModels.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-09-20 18:11:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''2' = s.customer_id set u.wallet_amount = s.'8899'' at line 1 in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('update users u ...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('update users u ...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('update users u ...')
+#3 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(24): CodeIgniter\Database\BaseConnection->query('update users u ...')
+#4 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(430): App\Models\NbfcBidModels->updatebid('2', '8899', '1')
+#5 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-20 18:28:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(430): App\Models\NbfcBidModels->updatebid('2', '89998', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 18:29:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(430): App\Models\NbfcBidModels->updatebid('2', '5705697', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 18:31:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(430): App\Models\NbfcBidModels->updatebid('2', '9809', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 18:40:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(430): App\Models\NbfcBidModels->updatebid('2', '989889', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:34:59 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:39:36 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:44:41 --> Undefined array key "rfqtitle"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitle"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:46:41 --> Undefined array key "rfqtitle"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitle"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:46:43 --> Undefined array key "rfqtitle"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitle"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:48:42 --> Undefined array key "rfqtitle"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitle"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:48:44 --> Undefined array key "rfqtitle"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitle"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:49:07 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-20 23:50:21 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

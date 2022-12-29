@@ -1,0 +1,33 @@
+CRITICAL - 2022-11-29 06:47:42 --> Attempt to read property "mobile_number" on null
+in APPPATH\Views\admin\rfqdetails.php on line 13.
+ 1 APPPATH\Views\admin\rfqdetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mobile_number" on null', 'APPPATH\\Views\\admin\\rfqdetails.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\rfqdetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/rfqdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(120): view('admin/rfqdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 06:47:49 --> Attempt to read property "mobile_number" on null
+in APPPATH\Views\admin\rfqdetails.php on line 13.
+ 1 APPPATH\Views\admin\rfqdetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mobile_number" on null', 'APPPATH\\Views\\admin\\rfqdetails.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\rfqdetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/rfqdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(120): view('admin/rfqdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 06:47:59 --> Attempt to read property "mobile_number" on null
+in APPPATH\Views\admin\rfqdetails.php on line 13.
+ 1 APPPATH\Views\admin\rfqdetails.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "mobile_number" on null', 'APPPATH\\Views\\admin\\rfqdetails.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\rfqdetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/rfqdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(120): view('admin/rfqdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

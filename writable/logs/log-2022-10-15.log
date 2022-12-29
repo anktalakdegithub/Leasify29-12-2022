@@ -1,0 +1,50 @@
+CRITICAL - 2022-10-15 02:54:31 --> Undefined variable $result
+in APPPATH\Controllers\Nbfc.php on line 478.
+ 1 APPPATH\Controllers\Nbfc.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Nbfc.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 02:55:12 --> Undefined array key "is_verify"
+in APPPATH\Controllers\Nbfc.php on line 478.
+ 1 APPPATH\Controllers\Nbfc.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_verify"', 'APPPATH\\Controllers\\Nbfc.php', 478)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 02:56:20 --> Undefined array key "is_verify"
+in APPPATH\Controllers\Nbfc.php on line 457.
+ 1 APPPATH\Controllers\Nbfc.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_verify"', 'APPPATH\\Controllers\\Nbfc.php', 457)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 02:56:57 --> Undefined variable $details
+in APPPATH\Controllers\Nbfc.php on line 457.
+ 1 APPPATH\Controllers\Nbfc.php(457): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $details', 'APPPATH\\Controllers\\Nbfc.php', 457)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:38:27 --> Undefined variable $i1
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 386.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i1', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 386)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(201): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-15 10:41:50 --> Undefined variable $proposal
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 431.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(431): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 431)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(201): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('FCPATH\\public', 'assets', 'img', 'deal', 'Iwanttoinvest.png')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

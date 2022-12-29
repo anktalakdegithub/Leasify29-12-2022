@@ -1,0 +1,647 @@
+CRITICAL - 2022-09-22 09:32:42 --> Undefined variable $code
+in APPPATH\Controllers\Nbfc.php on line 365.
+ 1 APPPATH\Controllers\Nbfc.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', 'APPPATH\\Controllers\\Nbfc.php', 365)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addmoney()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:09:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(440): App\Models\NbfcBidModels->updatebid('3', 'C:\\xampp\\htdocs\\leasiffronts', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:15:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(451): App\Models\NbfcBidModels->updatebid('3', '87', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:16:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(451): App\Models\NbfcBidModels->updatebid('3', '98', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:18:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(448): App\Models\NbfcBidModels->updatebid('3', '9987', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:21:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(448): App\Models\NbfcBidModels->updatebid('3', '87', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:25:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::set()
+in APPPATH\Models\NbfcBidModels.php on line 27.
+ 1 APPPATH\Controllers\Nbfc.php(448): App\Models\NbfcBidModels->updatebid('3', '878', '11')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 10:31:06 --> Unsupported operand types: string * int
+in APPPATH\Controllers\Nbfc.php on line 388.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->withdrawmoney()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 04:20:39 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 04:20:44 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 04:22:41 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 04:22:41 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:10:21 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:10:21 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:10:50 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:10:50 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:18:07 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:18:07 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:18:13 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:18:13 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:26:50 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:26:50 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:26:51 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:26:51 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:27:38 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:27:38 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(155): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:51:47 --> mysqli_sql_exception: Unknown column 'proposal_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:51:47 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:55:36 --> mysqli_sql_exception: Unknown column 'proposal_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:55:36 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:55:37 --> mysqli_sql_exception: Unknown column 'proposal_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:55:37 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 05:57:47 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 05:57:47 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 05:59:48 --> syntax error, unexpected variable "$result"
+in APPPATH\Models\Indicativeproposal_model.php on line 80.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Indicativeproposal_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Indicativeproposal_model')
+ 3 APPPATH\Controllers\Admin.php(175): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Indicativeproposal_model')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 06:00:13 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 06:00:13 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\admin\proposal_details.php on line 249.
+ 1 APPPATH\Views\admin\proposal_details.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\admin\\proposal_details.php', 249)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\proposal_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/proposal_details', [], true)
+ 5 APPPATH\Controllers\Admin.php(180): view('admin/proposal_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 06:01:17 --> mysqli_sql_exception: Column 'user_id' in where clause is ambiguous in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 06:01:17 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 06:05:36 --> mysqli_sql_exception: Unknown column 'proposal_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 06:05:36 --> Call to a member function getResult() on bool
+in APPPATH\Models\Indicativeproposal_model.php on line 79.
+ 1 APPPATH\Controllers\Admin.php(176): App\Models\Indicativeproposal_model->details('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->proposal_details()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 06:50:54 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 06:51:51 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 06:52:18 --> Call to undefined method App\Models\CustomerRFQModels::editrfq
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->__call('editrfq', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_rfq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 06:52:31 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 06:52:44 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 06:55:37 --> mysqli_sql_exception: Unknown column 'customer_id' in 'field list' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Indicativeproposal_model.php(91): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(197): App\Models\Indicativeproposal_model->addpayment(Array)
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->add_payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-22 06:55:37 --> view(): Argument #2 ($data) must be of type array, bool given, called in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 202
+in SYSTEMPATH\Common.php on line 1123.
+ 1 APPPATH\Controllers\Admin.php(202): view('admin/proposal_details', false)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->add_payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:05:11 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:05:28 --> Call to undefined method App\Models\CustomerRFQModels::editrfq
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(70): CodeIgniter\Model->__call('editrfq', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_rfq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:05:52 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:06:23 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:18:23 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 4 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:18:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 4 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:20:41 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:20:59 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:21:52 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:22:27 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:22:28 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:22:28 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 07:22:36 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 08:34:21 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 08:36:37 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 08:37:43 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 08:38:38 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(358): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 08:43:29 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 22:35:44 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-22 22:46:37 --> Attempt to read property "firstname" on null
+in APPPATH\Views\admin\edit_cust.php on line 30.
+ 1 APPPATH\Views\admin\edit_cust.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstname" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

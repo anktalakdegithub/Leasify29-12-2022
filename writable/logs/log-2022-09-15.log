@@ -1,0 +1,408 @@
+ERROR - 2022-09-15 00:26:55 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(182): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 00:26:55 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(182): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 12:25:11 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 12:25:11 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 12:25:18 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 12:25:18 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 12:30:41 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 12:30:41 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(201): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 13:08:22 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 13:08:22 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 22:44:21 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 22:44:21 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 22:44:39 --> mysqli_sql_exception: Unknown column 'proposal_bid' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 22:44:39 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(202): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:01:55 --> mysqli_sql_exception: Table 'leasifydb.proposal_id' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('delete from pro...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('delete from pro...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('delete from pro...')
+#3 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(47): CodeIgniter\Database\BaseConnection->query('delete from pro...')
+#4 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(212): App\Models\NbfcCreateProposalModels->deleteproposaldetails('1')
+#5 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-15 23:11:46 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:46 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:48 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:48 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:49 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:49 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:49 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:49 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:49 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:49 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:49 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:49 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:11:53 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:11:53 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:14:31 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:14:31 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:14:46 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:14:46 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:15:51 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:15:51 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(214): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-15 23:21:50 --> mysqli_sql_exception: Unknown column 'proposalbid_id' in 'where clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(216): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-15 23:21:50 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 249.
+ 1 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Nbfc.php(216): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->deleteproposal()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

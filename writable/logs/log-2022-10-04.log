@@ -1,0 +1,138 @@
+CRITICAL - 2022-10-04 02:08:42 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 306.
+ 1 APPPATH\Controllers\Nbfc.php(306): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 02:08:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 306.
+ 1 APPPATH\Controllers\Nbfc.php(306): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 02:08:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 306.
+ 1 APPPATH\Controllers\Nbfc.php(306): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 05:52:07 --> Undefined variable $validation
+in APPPATH\Views\admin\edit_cust.php on line 20.
+ 1 APPPATH\Views\admin\edit_cust.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\admin\\edit_cust.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:07:11 --> Undefined variable $validation
+in APPPATH\Views\admin\edit_cust.php on line 20.
+ 1 APPPATH\Views\admin\edit_cust.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\admin\\edit_cust.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:07:13 --> Undefined variable $validation
+in APPPATH\Views\admin\edit_cust.php on line 20.
+ 1 APPPATH\Views\admin\edit_cust.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\admin\\edit_cust.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(124): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:08:37 --> Undefined variable $customer
+in APPPATH\Views\admin\edit_cust.php on line 29.
+ 1 APPPATH\Views\admin\edit_cust.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\admin\\edit_cust.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(161): view('admin/edit_cust', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:39:28 --> Undefined array key "customer_id"
+in APPPATH\Views\admin\create_project.php on line 279.
+ 1 APPPATH\Views\admin\create_project.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'APPPATH\\Views\\admin\\create_project.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\create_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/create_project', [], true)
+ 5 APPPATH\Controllers\Admin.php(33): view('admin/create_project')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->create_project()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:46:08 --> Undefined array key "customer_id"
+in APPPATH\Views\admin\create_project.php on line 279.
+ 1 APPPATH\Views\admin\create_project.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'APPPATH\\Views\\admin\\create_project.php', 279)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\create_project.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/create_project', [], true)
+ 5 APPPATH\Controllers\Admin.php(33): view('admin/create_project')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->create_project()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:10:19 --> Undefined variable $customer
+in APPPATH\Views\admin\edit_cust.php on line 29.
+ 1 APPPATH\Views\admin\edit_cust.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\admin\\edit_cust.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(161): view('admin/edit_cust', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:11:52 --> Undefined variable $customer
+in APPPATH\Views\admin\edit_cust.php on line 29.
+ 1 APPPATH\Views\admin\edit_cust.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\admin\\edit_cust.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(162): view('admin/edit_cust', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:13:51 --> Undefined variable $customer
+in APPPATH\Views\admin\edit_cust.php on line 29.
+ 1 APPPATH\Views\admin\edit_cust.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\admin\\edit_cust.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(164): view('admin/edit_cust', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:14:18 --> Undefined variable $customer
+in APPPATH\Views\admin\edit_cust.php on line 29.
+ 1 APPPATH\Views\admin\edit_cust.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\admin\\edit_cust.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(164): view('admin/edit_cust', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:14:31 --> Undefined variable $customer
+in APPPATH\Controllers\Admin.php on line 164.
+ 1 APPPATH\Controllers\Admin.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Controllers\\Admin.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->update_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

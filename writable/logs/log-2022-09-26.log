@@ -1,0 +1,64 @@
+CRITICAL - 2022-09-26 23:18:22 --> Undefined array key "vendor"
+in APPPATH\Views\home\payment.php on line 32.
+ 1 APPPATH\Views\home\payment.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Views\\home\\payment.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:27:28 --> Undefined variable $paymentlist
+in APPPATH\Views\home\payment.php on line 29.
+ 1 APPPATH\Views\home\payment.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paymentlist', 'APPPATH\\Views\\home\\payment.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Home.php(79): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:27:50 --> Attempt to read property "status" on array
+in APPPATH\Views\home\payment.php on line 39.
+ 1 APPPATH\Views\home\payment.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on array', 'APPPATH\\Views\\home\\payment.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Home.php(79): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:28:15 --> Undefined array key "status"
+in APPPATH\Views\home\payment.php on line 39.
+ 1 APPPATH\Views\home\payment.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\home\\payment.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Home.php(79): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:44:50 --> Call to a member function paginate() on array
+in APPPATH\Controllers\Nbfc.php on line 160.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:59:21 --> Call to undefined method App\Models\PaymentRFQModels::paymentlist
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Nbfc.php(160): CodeIgniter\Model->__call('paymentlist', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 23:59:55 --> Call to undefined method App\Models\PaymentRFQModels::paymentlist
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Nbfc.php(160): CodeIgniter\Model->__call('paymentlist', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

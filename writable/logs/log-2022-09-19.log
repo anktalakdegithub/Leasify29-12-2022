@@ -1,0 +1,892 @@
+CRITICAL - 2022-09-19 03:58:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 03:58:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 03:58:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 03:58:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 03:58:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 03:58:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 244.
+ 1 APPPATH\Controllers\Nbfc.php(244): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:05:16 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:09:14 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:09:29 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:13:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:14:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:15:03 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:18:35 --> Array to string conversion
+in APPPATH\Controllers\Investor.php on line 72.
+ 1 APPPATH\Controllers\Investor.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Investor.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:20:45 --> Array to string conversion
+in APPPATH\Controllers\Investor.php on line 72.
+ 1 APPPATH\Controllers\Investor.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Investor.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:23:12 --> Array to string conversion
+in APPPATH\Controllers\Investor.php on line 72.
+ 1 APPPATH\Controllers\Investor.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Investor.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:23:14 --> Array to string conversion
+in APPPATH\Controllers\Investor.php on line 72.
+ 1 APPPATH\Controllers\Investor.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Investor.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:23:45 --> Array to string conversion
+in APPPATH\Controllers\Investor.php on line 72.
+ 1 APPPATH\Controllers\Investor.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Investor.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:37:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:37:24 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 74.
+ 1 APPPATH\Controllers\Investor.php(74): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:44:49 --> Class "App\Controllers\LoginModles" not found
+in APPPATH\Controllers\Investor.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:46:12 --> Class "App\Controllers\LoginModles" not found
+in APPPATH\Controllers\Nbfc.php on line 236.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:46:14 --> Class "App\Controllers\LoginModles" not found
+in APPPATH\Controllers\Nbfc.php on line 236.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:46:47 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:48:53 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:49:14 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:49:46 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:50:15 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:50:32 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:50:51 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:51:32 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:51:47 --> Undefined array key "nbfc_id"
+in APPPATH\Controllers\Nbfc.php on line 247.
+ 1 APPPATH\Controllers\Nbfc.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbfc_id"', 'APPPATH\\Controllers\\Nbfc.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:52:31 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 259.
+ 1 APPPATH\Controllers\Nbfc.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 259)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:52:37 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 259.
+ 1 APPPATH\Controllers\Nbfc.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 259)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:54:15 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 260.
+ 1 APPPATH\Controllers\Nbfc.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 04:55:46 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 261.
+ 1 APPPATH\Controllers\Nbfc.php(261): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 261)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:08:07 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:23:11 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:23:11 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:25:44 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('3')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:25:44 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('3')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:25:48 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:25:48 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:28:39 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:28:39 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:32:16 --> Undefined variable $proposalsingledetails
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 42.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposalsingledetails', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(161): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:32:32 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:32:32 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:38:02 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:38:02 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('11')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:39:08 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('25')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:39:08 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('25')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:40:13 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:40:13 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:41:30 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:41:30 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 05:41:37 --> mysqli_sql_exception: Table 'leasifydb.create_proposals_details' doesn't exist in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('25')
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-09-19 05:41:37 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 184.
+ 1 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, null)
+ 2 APPPATH\Controllers\Nbfc.php(158): CodeIgniter\BaseModel->find()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('25')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:43:11 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:43:20 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:43:30 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:45:04 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:46:34 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:47:14 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:48:06 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:48:30 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:49:26 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:50:12 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:50:14 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:51:56 --> Class "App\Models\InvestorCreateProposalModels" not found
+in APPPATH\Controllers\Investor.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 05:54:29 --> Object of class App\Models\NbfcCreateProposalModels could not be converted to string
+in APPPATH\Controllers\Investor.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->requirement()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:10:06 --> Class "App\Controllers\ProposalDetailsModels" not found
+in APPPATH\Controllers\Investor.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:10:41 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(132): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:12:43 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(133): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:15:04 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(133): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:15:06 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(133): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:15:12 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(133): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:16:20 --> Invalid file: investor/investorproposaldetails.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('investor/investorproposaldetails.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('investor/investorproposaldetails', [], true)
+ 3 APPPATH\Controllers\Investor.php(133): view('investor/investorproposaldetails', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investorproposaldetails('18')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 06:30:05 --> Too few arguments to function App\Models\NbfcBidModels::savebis(), 3 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Investor.php on line 137 and exactly 4 expected
+in APPPATH\Models\NbfcBidModels.php on line 7.
+ 1 APPPATH\Controllers\Investor.php(137): App\Models\NbfcBidModels->savebis('2', '300', '18')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->addinvestorbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:14 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:23:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:24:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 248.
+ 1 APPPATH\Controllers\Nbfc.php(248): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:31:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 111.
+ 1 APPPATH\Controllers\Investor.php(111): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:31:06 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 111.
+ 1 APPPATH\Controllers\Investor.php(111): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:34:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 111.
+ 1 APPPATH\Controllers\Investor.php(111): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:35:25 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Investor.php on line 111.
+ 1 APPPATH\Controllers\Investor.php(111): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Investor->investor_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investor))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 07:44:55 --> mysqli_sql_exception: Column 'proposal_id' in order clause is ambiguous in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+#7 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(195): CodeIgniter\BaseModel->paginate(5)
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-19 07:44:55 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+ 2 SYSTEMPATH\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+ 3 APPPATH\Controllers\Nbfc.php(195): CodeIgniter\BaseModel->paginate(5)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:49:14 --> Attempt to read property "pager" on array
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:50:45 --> Attempt to read property "pager" on array
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:51:31 --> Attempt to read property "pager" on array
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:56:02 --> Attempt to read property "pager" on array
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:56:10 --> Undefined variable $pager
+in APPPATH\Views\nbfc\rfqs.php on line 94.
+ 1 APPPATH\Views\nbfc\rfqs.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\nbfc\\rfqs.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\rfqs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqs', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(201): view('nbfc/rfqs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 07:57:50 --> Attempt to read property "pager" on array
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pager" on array', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 08:13:49 --> Undefined variable $services
+in APPPATH\Controllers\Nbfc.php on line 198.
+ 1 APPPATH\Controllers\Nbfc.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $services', 'APPPATH\\Controllers\\Nbfc.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-19 19:07:01 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcBidModels.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Nbfc.php(333): App\Models\NbfcBidModels->savebis(NULL, '2222', '/public/nbfc/16...', '1')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-19 21:51:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 255.
+ 1 APPPATH\Controllers\Nbfc.php(255): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:51:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 255.
+ 1 APPPATH\Controllers\Nbfc.php(255): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:54:00 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 255.
+ 1 APPPATH\Controllers\Nbfc.php(255): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:54:53 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 255.
+ 1 APPPATH\Controllers\Nbfc.php(255): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:55:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 255.
+ 1 APPPATH\Controllers\Nbfc.php(255): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:55:49 --> Unsupported operand types: string * int
+in APPPATH\Controllers\Nbfc.php on line 250.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:55:51 --> Unsupported operand types: string * int
+in APPPATH\Controllers\Nbfc.php on line 250.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:58:36 --> Undefined variable $user_role
+in APPPATH\Controllers\Nbfc.php on line 260.
+ 1 APPPATH\Controllers\Nbfc.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_role', 'APPPATH\\Controllers\\Nbfc.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 21:59:04 --> Undefined variable $user_role
+in APPPATH\Controllers\Nbfc.php on line 260.
+ 1 APPPATH\Controllers\Nbfc.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_role', 'APPPATH\\Controllers\\Nbfc.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 22:13:24 --> Undefined variable $proposals
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 64.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposals', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(161): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 23:21:58 --> Undefined variable $wallet
+in APPPATH\Views\nbfc\my_vault.php on line 92.
+ 1 APPPATH\Views\nbfc\my_vault.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wallet', 'APPPATH\\Views\\nbfc\\my_vault.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(59): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 23:22:57 --> Undefined variable $wallet
+in APPPATH\Views\nbfc\my_vault.php on line 92.
+ 1 APPPATH\Views\nbfc\my_vault.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $wallet', 'APPPATH\\Views\\nbfc\\my_vault.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\my_vault.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/my_vault', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(59): view('nbfc/my_vault', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->my_vault()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-19 23:45:02 --> Undefined variable $user_role
+in APPPATH\Controllers\Nbfc.php on line 265.
+ 1 APPPATH\Controllers\Nbfc.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_role', 'APPPATH\\Controllers\\Nbfc.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

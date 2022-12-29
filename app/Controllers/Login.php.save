@@ -1,0 +1,76 @@
+<?php
+
+namespace App\Controllers;
+use App\Models\LoginModles;
+class Login extends BaseController
+{
+    public function registeration(){
+      
+        $login=new LoginModles();
+        $fname=$this->request->getPost('fname');
+        $lname=$this->request->getPost('lname'); 
+      
+        $mobilenum=$this->request->getPost('mobilenum');  
+        $email=$this->request->getPost('email'); 
+    
+        $user_role="customer";
+        $login->savereg($fname,$lname,$mobilenum,$email,$user_role);    
+      $data = ['status'=>'Registration Done Successfully','msg'=>'Registration Done Successfully'];
+      
+      return $this->response->setJSON($data);
+
+      
+    }
+
+
+    public function process_login(){
+       
+         $login=new LoginModles();
+        $phone=$this->request->getPost('phone');
+//       print_r($phone); 
+//	die(); 
+     $result= $login->where('mobile_number', $phone)->first();
+//      print_r($result);
+  //  die();
+          $data=array();
+         if($result!=''){
+//die();    
+         if($phone=$result['mobile_number']){
+                // print_r('jkbhj');
+                 $user_id =$result['user_id'];
+                 $firstname =$result['firstname'];
+                 $otp=mt_rand(2000,9000);
+
+                 $session = session();
+                 $session_data = array(  
+                     'mobile_number'=> $phone,
+                );  
+                $session->set('isadminlogin', true);
+                $session->set('admindata', $session_data);
+                $session->set('user_id',$user_id);
+                $session->set('otp',$otp);
+                $session->set('firstname',$firstname);
+                
+                    $data = array('code' => 200, 'data'=> array('mobile_number'=> $result['mobile_number']), 'msg'=>"Login Successfully.");
+                    }
+                    else{
+//die();
+                        $data = array('code' => 404, 'data'=> array(), 'msg'=>"Please enter correct Details");
+                    }
+                }
+                else{
+                    $this->session->set_flashdata('error', 'Invalid Mobile Number');  
+                    $data = array('code' => 404, 'data'=> array(), 'msg'=>"Invalid Mobile Number.");
+                }
+                echo json_encode($data);
+
+ 
+     }
+
+     public function logout(){
+        $session = session();
+        $session->destroy();
+        return view('home/login');
+       }
+   
+}

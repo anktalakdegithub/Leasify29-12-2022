@@ -1,0 +1,13 @@
+ERROR - 2022-09-13 18:24:02 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(169): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '10', '20', 'ewr', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '', 'ss')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

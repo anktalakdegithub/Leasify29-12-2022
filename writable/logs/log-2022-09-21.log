@@ -1,0 +1,258 @@
+CRITICAL - 2022-09-21 00:00:02 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:01:58 --> Attempt to read property "rfqtitlte" on array
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rfqtitlte" on array', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:03:35 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:04:05 --> Array to string conversion
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:04:36 --> Undefined array key "rfq"
+in APPPATH\Controllers\Home.php on line 89.
+ 1 APPPATH\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfq"', 'APPPATH\\Controllers\\Home.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:06:44 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 15.
+ 1 APPPATH\Views\home\rfq_details.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 00:31:08 --> Call to a member function num_rows() on array
+in APPPATH\Views\home\rfq.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq', [], true)
+ 4 APPPATH\Controllers\Home.php(104): view('home/rfq', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:11:52 --> Undefined variable $session
+in APPPATH\Views\nbfc\headers.php on line 182.
+ 1 APPPATH\Views\nbfc\headers.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\nbfc\\headers.php', 182)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\headers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('nbfc/headers', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqlist', [], true)
+ 6 APPPATH\Controllers\Nbfc.php(213): view('nbfc/rfqlist', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqlist()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:22:46 --> Undefined variable $session
+in APPPATH\Views\nbfc\headers.php on line 183.
+ 1 APPPATH\Views\nbfc\headers.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\nbfc\\headers.php', 183)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\headers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('nbfc/headers', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqlist', [], true)
+ 6 APPPATH\Controllers\Nbfc.php(213): view('nbfc/rfqlist', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqlist()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:29:46 --> Class "LoginModles" not found
+in APPPATH\Views\nbfc\headers.php on line 185.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('nbfc/headers', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqlist', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(213): view('nbfc/rfqlist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqlist()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:41:31 --> Undefined variable $login_id
+in APPPATH\Views\nbfc\headers.php on line 190.
+ 1 APPPATH\Views\nbfc\headers.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login_id', 'APPPATH\\Views\\nbfc\\headers.php', 190)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\headers.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('nbfc/headers', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqlist', [], true)
+ 6 APPPATH\Controllers\Nbfc.php(213): view('nbfc/rfqlist', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqlist()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:43:53 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 301.
+ 1 APPPATH\Controllers\Nbfc.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 03:43:57 --> Undefined array key "username"
+in APPPATH\Controllers\Nbfc.php on line 301.
+ 1 APPPATH\Controllers\Nbfc.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Nbfc.php', 301)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:41:40 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(119): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:42:11 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(119): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:46:48 --> Undefined variable $kycdeatils
+in APPPATH\Controllers\Home.php on line 109.
+ 1 APPPATH\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kycdeatils', 'APPPATH\\Controllers\\Home.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:48:31 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:48:51 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:50:23 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:50:24 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:50:25 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:52:24 --> Undefined variable $profiledetails
+in APPPATH\Views\home\myaccount.php on line 38.
+ 1 APPPATH\Views\home\myaccount.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profiledetails', 'APPPATH\\Views\\home\\myaccount.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\myaccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/myaccount', [], true)
+ 5 APPPATH\Controllers\Home.php(112): view('home/myaccount', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 07:52:57 --> Invalid file: customer/profile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer/profile.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('customer/profile', [], true)
+ 3 APPPATH\Controllers\Home.php(112): view('customer/profile')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 22:47:11 --> Undefined variable $code
+in APPPATH\Controllers\Nbfc.php on line 439.
+ 1 APPPATH\Controllers\Nbfc.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', 'APPPATH\\Controllers\\Nbfc.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 22:47:13 --> Undefined variable $code
+in APPPATH\Controllers\Nbfc.php on line 439.
+ 1 APPPATH\Controllers\Nbfc.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', 'APPPATH\\Controllers\\Nbfc.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 22:47:28 --> Undefined variable $code
+in APPPATH\Controllers\Nbfc.php on line 439.
+ 1 APPPATH\Controllers\Nbfc.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', 'APPPATH\\Controllers\\Nbfc.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->addbid()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

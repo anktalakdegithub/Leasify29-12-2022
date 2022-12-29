@@ -1,0 +1,463 @@
+CRITICAL - 2022-10-01 00:26:22 --> Undefined variable $result
+in APPPATH\Controllers\Login.php on line 33.
+ 1 APPPATH\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Login.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 00:30:12 --> Undefined variable $result
+in APPPATH\Controllers\Login.php on line 34.
+ 1 APPPATH\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 00:31:58 --> Undefined variable $result
+in APPPATH\Controllers\Login.php on line 36.
+ 1 APPPATH\Controllers\Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Login.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 00:32:26 --> Undefined array key "otp"
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "otp"', 'APPPATH\\Controllers\\Login.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_otp()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 01:06:28 --> Call to undefined method App\Models\LoginModles::updateuserotp
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(167): CodeIgniter\Model->__call('updateuserotp', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->otpmobile()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 01:50:14 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-01 01:50:14 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+#7 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-01 01:50:14 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+ 2 SYSTEMPATH\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+ 3 APPPATH\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 01:50:37 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-01 01:50:37 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+#7 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-01 01:50:37 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+ 2 SYSTEMPATH\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+ 3 APPPATH\Controllers\Admin.php(382): CodeIgniter\BaseModel->paginate(5)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-01 01:51:57 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1085): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(384): CodeIgniter\BaseModel->paginate(5)
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-01 01:51:57 --> mysqli_sql_exception: Unknown column 'user_wallet.user_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\leasiffronts\system\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+#7 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(384): CodeIgniter\BaseModel->paginate(5)
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+#9 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-10-01 01:51:57 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+ 2 SYSTEMPATH\BaseModel.php(1089): CodeIgniter\BaseModel->findAll(5, 0)
+ 3 APPPATH\Controllers\Admin.php(384): CodeIgniter\BaseModel->paginate(5)
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 01:57:24 --> Call to a member function links() on null
+in APPPATH\Views\admin\withdrawmoney.php on line 94.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/withdrawmoney', [], true)
+ 4 APPPATH\Controllers\Admin.php(393): view('admin/withdrawmoney', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 01:58:34 --> Call to a member function links() on null
+in APPPATH\Views\admin\withdrawmoney.php on line 94.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/withdrawmoney', [], true)
+ 4 APPPATH\Controllers\Admin.php(393): view('admin/withdrawmoney', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->withdrawmoney()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 02:32:52 --> Call to undefined method App\Models\CustomerRFQModels::editrfq
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(156): CodeIgniter\Model->__call('editrfq', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_rfq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 02:48:07 --> Call to undefined method CodeIgniter\Router\RouteCollection::postt()
+in APPPATH\Config\Routes.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(766): require()
+ 2 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 03:32:50 --> Undefined variable $data
+in APPPATH\Controllers\Welcome.php on line 65.
+ 1 APPPATH\Controllers\Welcome.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Welcome.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->savecondata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 03:34:32 --> Undefined variable $data
+in APPPATH\Controllers\Welcome.php on line 66.
+ 1 APPPATH\Controllers\Welcome.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Welcome.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->savecondata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 03:35:14 --> Undefined variable $data
+in APPPATH\Controllers\Welcome.php on line 66.
+ 1 APPPATH\Controllers\Welcome.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Welcome.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->savecondata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 03:36:17 --> Undefined variable $data
+in APPPATH\Controllers\Welcome.php on line 66.
+ 1 APPPATH\Controllers\Welcome.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Welcome.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->savecondata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 16:29:52 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1217): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 16:35:57 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal('pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 16:41:16 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 75.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 75)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal('pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 06:16:18 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1218 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal('pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 06:16:27 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1218 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal('pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 06:23:36 --> Too few arguments to function App\Models\NbfcCreateProposalModels::updateproposal(), 12 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1218 and exactly 13 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal('pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 16:54:17 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 75.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 75)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:00:08 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:18:29 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:18:47 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:19:06 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja jj', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:21:10 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'pet pooja jj', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:23:10 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'Pet Pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/1664625190_c2b9b47517d831e64aaa.jpg', '/public/proposal_document/1664625190_d3c7c73456287de2b0fb.jpg', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Calpro Specialities is a 3 decade old profitable company working with marquee FMCG clients like HUL, ITC, Nestle', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:24:26 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1218): App\Models\NbfcCreateProposalModels->updateproposal(null, 'Pet Pooja', '78', '87', '878', '/public/proposal_logo/', '/public/proposal_images/1664625266_946b65c7d16b89960de0.jpg', '/public/proposal_document/1664625266_1cdd0ad47ba69d755f83.jpg', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Calpro Specialities is a 3 decade old profitable company working with marquee FMCG clients like HUL, ITC, Nestle', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:45:00 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'petpooja', '90', '10', '2900', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-27', 'KNS Infra is Bangalore’s one of the leading plotted developer enterprise with over 15 years of experience', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:54:30 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'petpooja', '99', '10', '2900', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-27', 'KNS Infra is Bangalore’s one of the leading plotted developer enterprise with over 15 years of experience', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:55:32 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'Rupeek pooja', '0', '554', 'w4432', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-09-04', 'Opportunity to participate in senior secured bonds of Rupeek, one of India’s fastest-growing NBFC providing Gold Loan solutions', '11')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:56:32 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'Pet pooja', '78', '87', '43535', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '25')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 17:56:52 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'hjvu', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '20')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:02:31 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'petpooja', '78', '87', '43535', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', '2022-08-28', 'Aris Infra is a technology based B2B platform providing a wide array of building material products across the construction life cycle.', '26')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:03:52 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'cemo', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '21')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:03:53 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'cemo', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '21')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:03:57 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'cemo', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '21')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:29:06 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'dfjbsdjf', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '22')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:29:07 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'dfjbsdjf', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '22')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 18:30:23 --> Undefined variable $proposal_id
+in APPPATH\Models\NbfcCreateProposalModels.php on line 74.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proposal_id', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 74)
+ 2 APPPATH\Controllers\Admin.php(1219): App\Models\NbfcCreateProposalModels->updateproposal(null, 'afd', '0', '0', 'C:\\xampp\\htdocs\\leasiffronts', '/public/proposal_logo/', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', '23')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:05:17 --> Call to undefined method App\Models\CustomerRFQModels::editrfq
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(156): CodeIgniter\Model->__call('editrfq', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_rfq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:05:40 --> Call to undefined method App\Models\CustomerRFQModels::details
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(107): CodeIgniter\Model->__call('details', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:05:51 --> Call to undefined method App\Models\CustomerRFQModels::details
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(107): CodeIgniter\Model->__call('details', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->rfqdetails()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:45:29 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Admin.php on line 1168.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:45:45 --> Undefined variable $session
+in APPPATH\Controllers\Admin.php on line 1168.
+ 1 APPPATH\Controllers\Admin.php(1168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Admin.php', 1168)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:52:50 --> Undefined variable $cust_id
+in APPPATH\Controllers\Admin.php on line 1134.
+ 1 APPPATH\Controllers\Admin.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cust_id', 'APPPATH\\Controllers\\Admin.php', 1134)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 08:55:29 --> Too few arguments to function App\Models\NbfcCreateProposalModels::saverproposal(), 11 passed in C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php on line 1140 and exactly 12 expected
+in APPPATH\Models\NbfcCreateProposalModels.php on line 9.
+ 1 APPPATH\Controllers\Admin.php(1140): App\Models\NbfcCreateProposalModels->saverproposal('Petpooja', '13.43%', '36 Months', '10,000', '/public/proposal_logo/1664632529_7bfd9212a8111706570e.jpg', '/public/proposal_images/', '/public/proposal_document/', '1', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts', 'C:\\xampp\\htdocs\\leasiffronts')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,275 @@
+ERROR - 2022-09-02 05:21:48 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(166): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '199', '299', '2888', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '2022-09-18', 'demo')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 05:21:48 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(171): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 05:21:50 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(166): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '199', '299', '2888', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '2022-09-18', 'demo')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 05:21:50 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(171): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:16:47 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '199', '299', '2888', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '2022-09-18', 'demo')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:16:47 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(173): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:32:16 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '199', '299', '2888', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '2022-09-18', 'demo')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:32:16 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(173): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:37:23 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '199', '299', '2888', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 3', '2022-09-18', 'demo')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:37:23 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(173): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:39:16 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'demo', '4', '44', '500', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-17', 'vvbb')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:39:16 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(173): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:42:24 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, '', '', '', '', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4,Subje...', '2022-09-24', 'other details')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:42:24 --> Undefined array key 1
+in APPPATH\Models\NbfcCreateProposalModels.php on line 39.
+ 1 APPPATH\Models\NbfcCreateProposalModels.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Models\\NbfcCreateProposalModels.php', 39)
+ 2 APPPATH\Controllers\Admin.php(173): App\Models\NbfcCreateProposalModels->saveproposaldetails(null, 0, [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:45:48 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'pro title', 'pre tax irr', '200', '500', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 2', '2022-09-24', 'fdg')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-02 06:55:08 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'tddddd', '43', '234', '436567', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-18', 'xccx')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 06:55:08 --> Undefined variable $rfq_id
+in APPPATH\Controllers\Admin.php on line 173.
+ 1 APPPATH\Controllers\Admin.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rfq_id', 'APPPATH\\Controllers\\Admin.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 06:55:46 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'tddddd', '43', '234', '436567', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-18', 'xccx')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-02 06:55:51 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'tddddd', '43', '234', '436567', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-18', 'xccx')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-02 06:55:52 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'tddddd', '43', '234', '436567', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-18', 'xccx')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-02 06:56:00 --> mysqli_sql_exception: Column 'customer_id' cannot be null in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\NbfcCreateProposalModels.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(168): App\Models\NbfcCreateProposalModels->saverproposal(NULL, 'tddddd', '43', '234', '436567', '/public/proposa...', '/public/proposa...', '/public/proposa...', '1', 'Subject 4', '2022-09-18', 'xccx')
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->createproject()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-02 03:31:35 --> Undefined array key "rfqtitlte"
+in APPPATH\Views\home\rfq_details.php on line 43.
+ 1 APPPATH\Views\home\rfq_details.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rfqtitlte"', 'APPPATH\\Views\\home\\rfq_details.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\rfq_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('home/rfq_details', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('home/rfq_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->rfq_details('31')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 04:01:19 --> Undefined variable $rfq
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 31.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rfq', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(125): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('18')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 04:28:10 --> Undefined variable $i1
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 84.
+ 1 APPPATH\Views\nbfc\nbfcproposaldetails.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i1', 'APPPATH\\Views\\nbfc\\nbfcproposaldetails.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\nbfc\\nbfcproposaldetails.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 5 APPPATH\Controllers\Nbfc.php(125): view('nbfc/nbfcproposaldetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('18')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 04:29:57 --> Undefined constant "proposals"
+in APPPATH\Views\nbfc\nbfcproposaldetails.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/nbfcproposaldetails', [], true)
+ 4 APPPATH\Controllers\Nbfc.php(125): view('nbfc/nbfcproposaldetails', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfcproposaldetails('18')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

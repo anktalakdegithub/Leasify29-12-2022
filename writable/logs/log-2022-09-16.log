@@ -1,0 +1,9 @@
+CRITICAL - 2022-09-16 00:12:08 --> syntax error, unexpected token ";"
+in APPPATH\Views\nbfc\rfqs.php on line 36.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('nbfc/rfqs', [], true)
+ 3 APPPATH\Controllers\Nbfc.php(185): view('nbfc/rfqs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->rfqs()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

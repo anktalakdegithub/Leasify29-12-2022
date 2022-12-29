@@ -1,0 +1,315 @@
+ERROR - 2022-09-23 01:27:33 --> mysqli_sql_exception: Unknown column 'customer_payment.customer_id' in 'on clause' in C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\leasiffronts\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\leasiffronts\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\leasiffronts\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\leasiffronts\app\Models\Customer_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\leasiffronts\app\Controllers\Admin.php(192): App\Models\Customer_model->paymentlist()
+#6 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(904): App\Controllers\Admin->payment()
+#7 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\leasiffronts\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\leasiffronts\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-23 01:27:33 --> Call to a member function getResult() on bool
+in APPPATH\Models\Customer_model.php on line 54.
+ 1 APPPATH\Controllers\Admin.php(192): App\Models\Customer_model->paymentlist()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:34:27 --> Call to undefined method App\Models\NbfcCreateProposalModels::updateproposal
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Admin.php(468): CodeIgniter\Model->__call('updateproposal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->updateproject()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:38:34 --> Class "App\Models\LoginModel" not found
+in APPPATH\Controllers\Admin.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:44:16 --> Attempt to read property "user_id" on null
+in APPPATH\Views\admin\edit_cust.php on line 28.
+ 1 APPPATH\Views\admin\edit_cust.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on null', 'APPPATH\\Views\\admin\\edit_cust.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\edit_cust.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('admin/edit_cust', [], true)
+ 5 APPPATH\Controllers\Admin.php(65): view('admin/edit_cust', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->edit_cust()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:57:41 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:57:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:57:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:57:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:58:30 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:58:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:58:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:58:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:58:55 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:59:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:59:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:59:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:59:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 01:59:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:03:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:07:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:07:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:08:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:11:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:12:20 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:14:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Nbfc.php on line 300.
+ 1 APPPATH\Controllers\Nbfc.php(300): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Nbfc->nbfc_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nbfc))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:15:07 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:15:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:15:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:15:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:31 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:32 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:27:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Login.php on line 35.
+ 1 APPPATH\Controllers\Login.php(35): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->process_login()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 02:55:26 --> include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\about.php on line 330.
+ 1 APPPATH\Views\about.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\about.php', 330)
+ 2 APPPATH\Views\about.php(330): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('about', [], true)
+ 6 APPPATH\Controllers\Welcome.php(16): view('about')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Welcome->about()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 13:20:33 --> Undefined variable $session
+in APPPATH\Controllers\Admin.php on line 36.
+ 1 APPPATH\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Admin.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-23 13:29:58 --> Undefined property: App\Controllers\Admin::$session
+in APPPATH\Controllers\Admin.php on line 36.
+ 1 APPPATH\Controllers\Admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$session', 'APPPATH\\Controllers\\Admin.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->customer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
